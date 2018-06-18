@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9E923BA420CFAB1A00F48E90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E923BA320CFAB1A00F48E90 /* AppDelegate.swift */; };
-		9E923BA620CFAB1A00F48E90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E923BA520CFAB1A00F48E90 /* ViewController.swift */; };
 		9E923BA920CFAB1A00F48E90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E923BA720CFAB1A00F48E90 /* Main.storyboard */; };
 		9E923BAB20CFAB1B00F48E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E923BAA20CFAB1B00F48E90 /* Assets.xcassets */; };
 		9E923BAE20CFAB1B00F48E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E923BAC20CFAB1B00F48E90 /* LaunchScreen.storyboard */; };
 		9E923BB920CFAB1B00F48E90 /* jeansExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E923BB820CFAB1B00F48E90 /* jeansExerciseTests.swift */; };
 		9E923BC420CFAB1B00F48E90 /* jeansExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E923BC320CFAB1B00F48E90 /* jeansExerciseUITests.swift */; };
+		9E923BD220CFAE8F00F48E90 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E923BD120CFAE8F00F48E90 /* FirstViewController.swift */; };
+		9E923BD420CFAEB500F48E90 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E923BD320CFAEB500F48E90 /* DetailsViewController.swift */; };
+		9E923BD720CFAF2100F48E90 /* Jeans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E923BD620CFAF2100F48E90 /* Jeans.swift */; };
+		9E923BD920CFB46300F48E90 /* Seller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E923BD820CFB46300F48E90 /* Seller.swift */; };
+		9EC39DBB20D8003000D09075 /* btnBorderRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC39DBA20D8003000D09075 /* btnBorderRadius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		9E923BA020CFAB1A00F48E90 /* jeansExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jeansExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E923BA320CFAB1A00F48E90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E923BA520CFAB1A00F48E90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E923BA820CFAB1A00F48E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E923BAA20CFAB1B00F48E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E923BAD20CFAB1B00F48E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		9E923BBF20CFAB1B00F48E90 /* jeansExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jeansExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E923BC320CFAB1B00F48E90 /* jeansExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jeansExerciseUITests.swift; sourceTree = "<group>"; };
 		9E923BC520CFAB1C00F48E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E923BD120CFAE8F00F48E90 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9E923BD320CFAEB500F48E90 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9E923BD620CFAF2100F48E90 /* Jeans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeans.swift; sourceTree = "<group>"; };
+		9E923BD820CFB46300F48E90 /* Seller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seller.swift; sourceTree = "<group>"; };
+		9EC39DBA20D8003000D09075 /* btnBorderRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = btnBorderRadius.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,14 @@
 		9E923BA220CFAB1A00F48E90 /* jeansExercise */ = {
 			isa = PBXGroup;
 			children = (
+				9E923BD520CFAF0B00F48E90 /* Model */,
 				9E923BA320CFAB1A00F48E90 /* AppDelegate.swift */,
-				9E923BA520CFAB1A00F48E90 /* ViewController.swift */,
 				9E923BA720CFAB1A00F48E90 /* Main.storyboard */,
 				9E923BAA20CFAB1B00F48E90 /* Assets.xcassets */,
 				9E923BAC20CFAB1B00F48E90 /* LaunchScreen.storyboard */,
 				9E923BAF20CFAB1B00F48E90 /* Info.plist */,
+				9E923BD120CFAE8F00F48E90 /* FirstViewController.swift */,
+				9E923BD320CFAEB500F48E90 /* DetailsViewController.swift */,
 			);
 			path = jeansExercise;
 			sourceTree = "<group>";
@@ -123,6 +133,16 @@
 				9E923BC520CFAB1C00F48E90 /* Info.plist */,
 			);
 			path = jeansExerciseUITests;
+			sourceTree = "<group>";
+		};
+		9E923BD520CFAF0B00F48E90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E923BD620CFAF2100F48E90 /* Jeans.swift */,
+				9E923BD820CFB46300F48E90 /* Seller.swift */,
+				9EC39DBA20D8003000D09075 /* btnBorderRadius.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E923BA620CFAB1A00F48E90 /* ViewController.swift in Sources */,
 				9E923BA420CFAB1A00F48E90 /* AppDelegate.swift in Sources */,
+				9E923BD920CFB46300F48E90 /* Seller.swift in Sources */,
+				9E923BD220CFAE8F00F48E90 /* FirstViewController.swift in Sources */,
+				9E923BD420CFAEB500F48E90 /* DetailsViewController.swift in Sources */,
+				9EC39DBB20D8003000D09075 /* btnBorderRadius.swift in Sources */,
+				9E923BD720CFAF2100F48E90 /* Jeans.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
